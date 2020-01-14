@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigationbar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="feedback">Send us your Feedback!</string>
+    <string name="feedback_detail">Do you have a suggestion or found some bug?
+    \n let us know in the field below…</string>
+</resources>
