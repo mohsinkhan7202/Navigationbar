@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
     tools:context=".ChooseDepartmentActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="75dp"
+            android:background="@drawable/logo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnChooseDept"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_gradient"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Choose your deparement"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_weight="3">
+
+        <Button
+            android:id="@+id/btnFaculties"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Faculties" />
+
+        <Button
+            android:id="@+id/btnCR"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Student CR"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnDeptNotice"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Department Notice"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnRoutine"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Class Routine"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
