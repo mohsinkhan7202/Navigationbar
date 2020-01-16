@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000276971772",
+    "firebase_url": "https://iiucimageupload.firebaseio.com",
+    "project_id": "iiucimageupload",
+    "storage_bucket": "iiucimageupload.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000276971772:android:22e78ec5c60d83492d4779",
+        "android_client_info": {
+          "package_name": "com.example.navigationbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000276971772-5pgsqunraje57s0imr0qci6e8n9kni36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2bLYw4NSxef9IUtPqVY-_uG8zBWJxhME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000276971772-5pgsqunraje57s0imr0qci6e8n9kni36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
