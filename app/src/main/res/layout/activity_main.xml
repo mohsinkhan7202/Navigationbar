@@ -1,21 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activitymainId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:weightSum="4"
     tools:context=".MainActivity">
 
-       <TextView
-           android:id="@+id/helloId"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-              android:text="hello"
-              android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="75dp"
+            android:background="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/library"
+            android:fadingEdge="horizontal|vertical"
+            >
+        </ImageView>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/btnDept"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_gradient"
+            android:padding="8dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/department"
+            android:drawableStart="@drawable/department" />
+
+        <Button
+            android:id="@+id/btnNotice"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_gradient"
+            android:padding="8dp"
+            android:text="@string/notice_board"
+            android:layout_marginTop="20dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:drawableStart="@drawable/noticeboard"/>
+
+        <Button
+            android:id="@+id/btnClndr"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_gradient"
+            android:padding="8dp"
+            android:text="@string/calendar"
+            android:layout_marginTop="20dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:drawableStart="@drawable/calendar"/>
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_gradient"
+            android:padding="8dp"
+            android:text="@string/bus_schedule"
+            android:layout_marginTop="20dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:drawableStart="@drawable/bus"/>
+
+    </LinearLayout>
 
 
 
 </LinearLayout>
+

@@ -6,4 +6,8 @@
     <string name="feedback">Send us your Feedback!</string>
     <string name="feedback_detail">Do you have a suggestion or found some bug?
     \n let us know in the field below…</string>
+    <string name="department">Department</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="calendar">Calendar</string>
+    <string name="bus_schedule">Bus Schedule</string>
 </resources>
