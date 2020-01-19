@@ -28,7 +28,7 @@ import java.util.List;
 public class ChooseDepartmentActivity extends AppCompatActivity {
     private Button classroutinebtn;
     private Spinner spinner;
-    private Button showStudentBTN,showTeacherBTN;
+    private Button showStudentBTN,showTeacherBTN,deptNoticeBTN;
     private ListView listView;
     private ArrayList<String>depertments;
     private ArrayList<Student>students;
@@ -44,9 +44,9 @@ public class ChooseDepartmentActivity extends AppCompatActivity {
         setContentView( R.layout.activity_choose_department );
 
         classroutinebtn=findViewById( R.id.btnclassroutine );
-
         showStudentBTN=findViewById(R.id.btnShowStudent);
         showTeacherBTN=findViewById(R.id.btnShowTeacher);
+        deptNoticeBTN=findViewById( R.id.btndept_notice );
 
         spinner=findViewById(R.id.spDpartment);
         listView=findViewById(R.id.listView);
@@ -84,6 +84,13 @@ public class ChooseDepartmentActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        deptNoticeBTN.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ChooseDepartmentActivity.this,Department_Notice_Activity.class);
+                startActivity( intent );
+            }
+        } );
     }
 
 

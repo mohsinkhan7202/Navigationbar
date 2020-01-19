@@ -33,13 +33,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Save Image" />
-    <Button
-        android:id="@+id/btn_notice_show"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Show Notice" />
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listViewId"

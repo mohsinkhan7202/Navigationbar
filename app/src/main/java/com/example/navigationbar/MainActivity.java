@@ -97,18 +97,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             return true;
         }
 
-        if (item.getItemId()==R.id.settingId){
-            Toast.makeText( MainActivity.this,"setting is selected",Toast.LENGTH_SHORT ).show();
-            return true;
-        }
-
         if (item.getItemId()==R.id.feedbackId){
             Intent intent=new Intent(getApplicationContext(),FeedbackActivity.class);
             startActivity( intent );
         }
         if (item.getItemId()==R.id.aboutusId){
-            Toast.makeText( MainActivity.this,"about us is selected",Toast.LENGTH_SHORT ).show();
-            return true;
+            Intent intent=new Intent(MainActivity.this,About_Us_Activity.class);
+            startActivity( intent );
         }
         return super.onOptionsItemSelected( item );
     }
@@ -145,7 +140,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
-
     @Override
     public void onBackPressed() {
         if(mWebView.canGoBack()) {
@@ -155,12 +149,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
-
-   /* @Override
-    protected void onStop() {
-        super.onStop();
-        finish();
-    }*/
 }
 
 

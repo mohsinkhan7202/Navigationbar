@@ -62,7 +62,7 @@ public class NoticeActivity extends AppCompatActivity {
         savebtn = findViewById( R.id.btn_notice_Save );
         choosebtn = findViewById( R.id.btn_notice_Choose );
         listView = findViewById( R.id.listViewId );
-        showbtn=findViewById( R.id. btn_notice_show);
+
 
 
         database = FirebaseDatabase.getInstance();
