@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChooseDepartmentActivity"></activity>
+        <activity android:name=".Notice_Detail_Activity"></activity>
+        <activity android:name=".NoticeActivity" />
+        <activity android:name=".Class_Routine_Detail_Activity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".Class_Routine_Activity" />
+        <activity android:name=".Department_Notice_Activity" />
+        <activity android:name=".ChooseDepartmentActivity" />
         <activity android:name=".ShareActivity" />
         <activity android:name=".ContactActivity" />
         <activity android:name=".TeacherDetailActivity" />

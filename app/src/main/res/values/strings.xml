@@ -9,5 +9,6 @@
     <string name="department">Department</string>
     <string name="notice_board">Notice Board</string>
     <string name="calendar">Calendar</string>
+    <string name="student_rspresentive"></string>
     <string name="bus_schedule">Bus Schedule</string>
 </resources>

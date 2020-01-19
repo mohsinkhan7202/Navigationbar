@@ -12,7 +12,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="25dp"
-        android:text="This is Contact fragment" />
+        android:text="plz contact with admin:"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:mohsin@gmail.com"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phn No:01866824344"
+        android:textSize="20dp"/>
 
 </LinearLayout>

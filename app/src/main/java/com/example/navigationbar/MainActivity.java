@@ -50,6 +50,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             }
         } );
+        calendarbtn.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,CalendarActivity.class);
+                startActivity( intent );
+            }
+        } );
 
         drawerLayout=findViewById( R.id.drawer_layoutId );
         NavigationView navigationView=findViewById( R.id.navigationViewId );

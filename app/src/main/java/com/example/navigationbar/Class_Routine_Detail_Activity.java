@@ -15,13 +15,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-
 import java.util.ArrayList;
 
-public class TeacherDetailActivity extends AppCompatActivity {
+public class Class_Routine_Detail_Activity extends AppCompatActivity {
+
     private RecyclerView recyclerView;
-    private ArrayList<Teacher> teachers;
-    private TeacherAdapter adapter;
+    private ArrayList<Routine> routines;
+    private RoutineAdapter adapter;
 
     private FirebaseDatabase database;
     private DatabaseReference myRef;
@@ -29,29 +29,27 @@ public class TeacherDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_teacher_detail );
+        setContentView( R.layout.activity_class__routine__detail_ );
+
 
         recyclerView=findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         database = FirebaseDatabase.getInstance();
-        myRef= database.getReference("Department");
 
         Intent intent=getIntent();
-        String department=intent.getStringExtra("department");
-        Query query = database.getReference("Teacher")
-                .orderByChild("department")
-                .equalTo(department);
+        Query query = database.getReference("Routine");
+
 
         query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                teachers=new ArrayList<>();
+                routines=new ArrayList<>();
                 for (DataSnapshot dataSnapshot1:dataSnapshot.getChildren()) {
-                    Teacher teacher=dataSnapshot1.getValue(Teacher.class);
-                    teachers.add(teacher);
+                    Routine routine=dataSnapshot1.getValue(Routine.class);
+                    routines.add(routine);
                 }
-                adapter=new TeacherAdapter(TeacherDetailActivity.this,teachers);
+                adapter= new RoutineAdapter( Class_Routine_Detail_Activity.this,routines );
                 recyclerView.setAdapter(adapter);
             }
 

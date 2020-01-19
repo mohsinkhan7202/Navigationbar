@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/btn_shape_gradient"
-    tools:context=".TeacherDetailActivity">
+    tools:context=".Class_Routine_Detail_Activity">
 
     <TextView
         android:layout_marginBottom="20dp"
-        android:text="Honourable Teacher"
+        android:text="Class Routine"
         android:textSize="26dp"
         android:textAlignment="center"
         android:layout_width="match_parent"
