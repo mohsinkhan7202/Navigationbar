@@ -11,4 +11,8 @@
     <string name="calendar">Calendar</string>
     <string name="student_rspresentive"></string>
     <string name="bus_schedule">Bus Schedule</string>
+
+    //about us string
+    <string name="programmers">PROGRAMMERS</string>
+    <string name="special_thanks_to">SPECIAL THANKS TO</string>
 </resources>
