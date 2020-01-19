@@ -9,24 +9,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
+        android:background="#4A96B9"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_weight="2">
 
         <ImageView
-            android:layout_width="71dp"
-            android:layout_height="75dp"
-            android:background="@drawable/logo"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="205dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/library"
-            android:fadingEdge="horizontal|vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/library"
             >
         </ImageView>
         
@@ -39,7 +31,9 @@
         android:gravity="center"
         android:paddingTop="30dp"
         android:paddingBottom="30dp"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:background="#4A96B9"
+        android:layout_margin="0dp">
 
         <Button
             android:id="@+id/btnDept"
@@ -50,6 +44,9 @@
             android:paddingStart="30dp"
             android:paddingEnd="30dp"
             android:text="@string/department"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:drawableStart="@drawable/department" />
 
         <Button
@@ -59,6 +56,9 @@
             android:background="@drawable/btn_shape_gradient"
             android:padding="8dp"
             android:text="@string/notice_board"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:paddingStart="30dp"
             android:paddingEnd="30dp"
@@ -71,10 +71,13 @@
             android:background="@drawable/btn_shape_gradient"
             android:padding="8dp"
             android:text="@string/calendar"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:paddingStart="30dp"
             android:paddingEnd="30dp"
-            />
+            android:drawableStart="@drawable/calendar"/>
 
         <Button
             android:id="@+id/btnBus"
@@ -83,6 +86,9 @@
             android:background="@drawable/btn_shape_gradient"
             android:padding="8dp"
             android:text="@string/bus_schedule"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginTop="20dp"
             android:paddingStart="30dp"
             android:paddingEnd="30dp"

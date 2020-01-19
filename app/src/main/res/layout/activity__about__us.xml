@@ -93,7 +93,7 @@
                 android:id="@+id/ivaboutOly"
                 android:layout_width="95dp"
                 android:layout_height="95dp"
-                android:src="@drawable/olyImage"
+                android:src="@drawable/olyimage"
                 />
 
             <TextView
