@@ -127,13 +127,7 @@ public class Class_Routine_Activity extends AppCompatActivity {
                                 }
                             }, 500 );
 
-                           /* Toast.makeText( Class_Routine_Activity.this, "Upload Successful", Toast.LENGTH_SHORT ).show();//extra
 
-                            Routine routine = new Routine( editText.getText().toString().trim(), taskSnapshot.getMetadata()
-                                    .getReference().getDownloadUrl().toString() );
-                            String routineId = myDatabase.push().getKey();
-                            myDatabase.child( routineId ).setValue( routine );
-*/
                             reference.getDownloadUrl().addOnSuccessListener( new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -174,7 +168,6 @@ public class Class_Routine_Activity extends AppCompatActivity {
 
                         }
                     }
-
 
 
     private void show() {

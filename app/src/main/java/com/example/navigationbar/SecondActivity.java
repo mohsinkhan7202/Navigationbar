@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class SecondActivity extends AppCompatActivity {
-    private Button departmentBTN,studentBTN,teacherBTN,showBTN;
+    private Button departmentBTN,studentBTN,teacherBTN,showBTN,noticeBTN;
 
 
     @Override
@@ -18,6 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         departmentBTN=findViewById(R.id.btnDepartment);
         studentBTN=findViewById(R.id.btnStudent);
         teacherBTN=findViewById(R.id.btnTeacher);
+        noticeBTN=findViewById( R.id.btnnotice );
         showBTN=findViewById(R.id.btnShow);
         departmentBTN.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +55,13 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        noticeBTN.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SecondActivity.this,NoticeActivity.class);
+                startActivity( intent  );
+            }
+        } );
 
     }
     }

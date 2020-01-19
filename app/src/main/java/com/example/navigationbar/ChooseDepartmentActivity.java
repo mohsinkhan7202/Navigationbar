@@ -59,7 +59,7 @@ public class ChooseDepartmentActivity extends AppCompatActivity {
         classroutinebtn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ChooseDepartmentActivity.this,Class_Routine_Activity.class);
+                Intent intent=new Intent(ChooseDepartmentActivity.this,Class_Routine_Detail_Activity.class);
                 startActivity( intent );
             }
         } );

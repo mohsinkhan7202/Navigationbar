@@ -16,7 +16,7 @@
 
 
     <Button
-        android:text="Add Student"
+        android:text="Add CR"
         android:id="@+id/btnStudent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -25,6 +25,11 @@
     <Button
         android:text="Add Teacher"
         android:id="@+id/btnTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Add Notice"
+        android:id="@+id/btnnotice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

@@ -57,6 +57,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity( intent );
             }
         } );
+        noticebtn.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Notice_Detail_Activity.class);
+                startActivity( intent );
+            }
+        } );
+        busshedulebtn.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Bus_ScheduleActivity.class);
+                startActivity( intent );
+            }
+        } );
 
         drawerLayout=findViewById( R.id.drawer_layoutId );
         NavigationView navigationView=findViewById( R.id.navigationViewId );
@@ -141,5 +155,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
+
+   /* @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }*/
 }
+
 

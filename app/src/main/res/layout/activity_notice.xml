@@ -8,12 +8,12 @@
     tools:context=".NoticeActivity">
 
     <EditText
-        android:id="@+id/txtId"
+        android:id="@+id/textId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <ImageView
-        android:id="@+id/image_routine_Id"
+        android:id="@+id/image_notice_Id"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginTop="10dp"
@@ -21,20 +21,20 @@
 
 
     <Button
-        android:id="@+id/btnChoose"
+        android:id="@+id/btn_notice_Choose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Choose Image" />
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btn_notice_Save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Save Image" />
     <Button
-        android:id="@+id/btnShow_Notice"
+        android:id="@+id/btn_notice_show"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
