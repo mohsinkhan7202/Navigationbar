@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical">
     
     <TextView
@@ -17,42 +18,57 @@
         android:layout_height="wrap_content"
         android:text="Vice-Chancellor"
         android:textSize="20dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="344dp"
         android:src="@drawable/golam_mohiuddin" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Prof. K M Golam Muhiuddin"/>
 
-    <EditText
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fallbackLineSpacing="false"
+            android:text="Prof. K M Golam Muhiuddin" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="International Islamic University Chittagong"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fax : (+88-03042) 51160, E-mail : vc@iiuc.ac.bd"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pro Vice-Chancellor"
         android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
         android:layout_gravity="center"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="291dp"
         android:src="@drawable/pro_vc" />
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Prof. Dr. Mohammad Ali Azadi"/>
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="International Islamic University Chittagong"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail: provc@iiuc.ac.bd, maazadi@yahoo.com" />
 
     </LinearLayout>
     

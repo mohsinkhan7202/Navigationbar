@@ -14,15 +14,17 @@
         android:layout_gravity="center"
         android:text="plz contact with admin:"
         android:textSize="20dp" />
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Email:mohsin@gmail.com"
+        android:padding="15dp"
         android:textSize="20dp"/>
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Phn No:01866824344"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:padding="15dp"/>
 
 </LinearLayout>

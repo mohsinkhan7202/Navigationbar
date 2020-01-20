@@ -24,9 +24,9 @@ public class AdminActivity extends AppCompatActivity {
         username=findViewById( R.id.nameId );
         pass=findViewById( R.id.passwordId );
         btn=findViewById( R.id.loginId );
-        textView=findViewById( R.id.textviewId );
+        /*textView=findViewById( R.id.textviewId );
         textView.setText( "Number of attempts remaining :3" );
-
+*/
         btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {

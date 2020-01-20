@@ -5,11 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#4A96B9"
     android:gravity="center"
     tools:context=".SplashActivity">
 
-    <ImageView
+    <pl.droidsonroids.gif.GifImageView
+        android:src="@drawable/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <!--<ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/logo"/>
@@ -34,6 +39,6 @@
         android:textStyle="bold"
         android:textColor="#ffffff"
         android:layout_gravity="center"/>
-
+-->
 
 </LinearLayout>

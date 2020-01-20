@@ -133,12 +133,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                    startActivity( intent1 );
                }
                break;
-           case R.id.nav_share:
-               if (menuItem.getItemId()==R.id.nav_share){
-                   Intent intent1=new Intent(MainActivity.this,ShareActivity.class);
-                   startActivity( intent1 );
-               }
-               break;
        }
         return true;
 
