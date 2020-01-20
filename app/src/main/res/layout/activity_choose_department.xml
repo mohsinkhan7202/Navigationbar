@@ -6,22 +6,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:outlineSpotShadowColor="@color/darkgrey"
-    android:background="@drawable/btn_shape_gradient"
+    android:background="#030434"
     tools:context=".ChooseDepartmentActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#16E7D7">
+        android:background="#4A96B9">
 
         <TextView
-            android:text="Department"
+            android:text="Choose Department"
             android:textSize="20dp"
+            android:textColor="@color/white"
             android:textAlignment="center"
+            android:background="#4A96B9"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <Spinner
             android:id="@+id/spDpartment"

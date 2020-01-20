@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    android:background="#3396E6"
+    android:background="#4A96B9"
     tools:context=".AdminActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@drawable/iiucgate" />
+        android:src="@drawable/library" />
 
     <EditText
         android:id="@+id/nameId"

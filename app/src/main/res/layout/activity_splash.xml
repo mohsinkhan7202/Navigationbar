@@ -20,9 +20,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Powered by Team Alpha"
-        android:textSize="18dp"
-        android:textStyle="italic"
+        android:text="Powered by"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Alpha"
+        android:textSize="24sp"
+        android:textStyle="bold"
         android:textColor="#ffffff"
         android:layout_gravity="center"/>
 
