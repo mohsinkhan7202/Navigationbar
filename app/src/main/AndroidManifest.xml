@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".About_Us_Activity"></activity>
+        <activity android:name=".VCActivity"></activity>
+        <activity android:name=".About_Us_Activity" />
         <activity android:name=".Bus_ScheduleActivity" />
         <activity android:name=".Notice_Detail_Activity" />
         <activity android:name=".NoticeActivity" />
