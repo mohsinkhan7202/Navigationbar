@@ -39,7 +39,8 @@
         android:text="Show Student"
         android:id="@+id/btnShowStudent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"/>
 
     <Button
         android:layout_marginBottom="20dp"

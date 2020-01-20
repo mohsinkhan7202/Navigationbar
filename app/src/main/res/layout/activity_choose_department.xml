@@ -6,19 +6,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:outlineSpotShadowColor="@color/darkgrey"
-    android:background="#030434"
+    android:background="#4A96B9"
     tools:context=".ChooseDepartmentActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#4A96B9">
+        android:background="#4A96B9"
+        android:paddingTop="10dp">
 
         <TextView
             android:text="Choose Department"
             android:textSize="20dp"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:background="#4A96B9"
             android:layout_weight="1"
@@ -30,7 +32,6 @@
             android:layout_width="wrap_content"
             android:layout_weight=".5"
             android:layout_height="wrap_content"/>
-
 
     </LinearLayout>
 
@@ -46,28 +47,32 @@
             android:text="Student CR"
             android:id="@+id/btnShowStudent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            />
 
         <Button
             android:layout_marginBottom="20dp"
             android:text="Teacher"
             android:id="@+id/btnShowTeacher"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+           />
 
         <Button
             android:layout_marginBottom="20dp"
             android:text="Dept.Notice"
             android:id="@+id/btndept_notice"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            />
         <Button
             android:layout_marginBottom="20dp"
             android:text="Class Routine"
             android:id="@+id/btnclassroutine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp" />
+            android:padding="8dp"
+            />
 
         <ListView
             android:id="@+id/listView"
